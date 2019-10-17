@@ -33,7 +33,7 @@ function display() {
   let isVowel = false;
 
   let option1 = arrayOne[Math.floor(Math.random() * 14)];
-  let option2 = arrayTwo[Math.floor(Math.random() * 10)];
+  let option2 = arrayTwo[Math.floor(Math.random() * 9)];
 
   if (name === "") {
     alert("Now come on! You have to enter your name");
@@ -65,4 +65,5 @@ function display() {
       });
     }
   }
+  window.scrollTo(0, document.body.scrollHeight);
 }
